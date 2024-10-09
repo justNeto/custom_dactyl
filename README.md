@@ -25,3 +25,13 @@ Enter the bootloader in 3 ways:
 * **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
 * **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
 * **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+
+Another way to compile the code is to use the qmk command line interface:
+```bash
+qmk compile -kb custom_dactyl -km default
+```
+
+Reboot the keyboard holding the magic reset (0.0) when turning on the keyboard and coping the .uf2 file that was generated on the previous step via:
+```bash
+cp custom_dactyl_default.uf2 /run/media/neto/RPI-RP2
+```
