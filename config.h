@@ -1,0 +1,6 @@
+#pragma once
+
+#define SERIAL_PIO_USE_PIO1
+#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_TX_PIN GP8
+#define SERIAL_USART_TX_PIN GP9
