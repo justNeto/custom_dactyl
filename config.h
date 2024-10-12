@@ -1,6 +1,7 @@
 #pragma once
 
+#define EE_HANDS
 #define SERIAL_PIO_USE_PIO1
 #define SERIAL_USART_FULL_DUPLEX
 #define SERIAL_USART_TX_PIN GP8
-#define SERIAL_USART_TX_PIN GP9
+#define SERIAL_USART_RX_PIN GP9

@@ -32,16 +32,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
 
     [0] = LAYOUT(
-        KC_T,           KC_1,               KC_2,           KC_3,       KC_4,    KC_5,      KC_PRINT_SCREEN,                        KC_T,          KC_6,            KC_7,           KC_8,       KC_9,           KC_0,      KC_T,
-        KC_T,           KC_SCLN,            KC_COMMA,       KC_DOT,     KC_P,    KC_Y,      KC_AUDIO_VOL_UP,                        KC_T,          KC_F,            KC_G,           KC_C,       KC_R,           KC_L,      KC_T,
-        KC_T,           KC_A,               KC_O,           KC_E,       KC_U,    KC_I,      KC_AUDIO_VOL_DOWN,                      KC_T,          KC_D,            KC_H,           KC_T,       KC_N,           KC_S,      KC_T,
-        KC_LEFT_SHIFT,  KC_QUOTE,           KC_Q,           KC_J,       KC_K,    KC_X,      KC_AUDIO_MUTE,                          KC_T,          KC_B,            KC_M,           KC_W,       KC_V,           KC_Z,      KC_T
-                        KC_T,               KC_T,                                                                                   KC_T,          KC_T,
+            KC_T,           KC_1,               KC_2,           KC_3,       KC_4,       KC_5,       KC_PRINT_SCREEN,                        KC_T,           KC_6,           KC_7,           KC_8,       KC_9,           KC_0,       KC_T,
+            KC_T,           KC_SCLN,            KC_COMMA,       KC_DOT,     KC_P,       KC_Y,       KC_AUDIO_VOL_UP,                        KC_T,          KC_F,            KC_G,           KC_C,       KC_R,           KC_L,       KC_T,
+            KC_T,           KC_A,               KC_O,           KC_E,       KC_U,       KC_I,       KC_AUDIO_VOL_DOWN,                      KC_T,          KC_D,            KC_H,           KC_T,       KC_N,           KC_S,       KC_T,
+            KC_LEFT_SHIFT,  KC_QUOTE,           KC_Q,           KC_J,       KC_K,       KC_X,       KC_AUDIO_MUTE,                          KC_T,          KC_B,            KC_M,           KC_W,       KC_V,           KC_Z,       KC_T,
+                            KC_T,               KC_T,                                                                                                                                                   KC_T,           KC_T,
 
-                        MT(MOD_LGUI, KC_ESCAPE),    KC_SPACE,                                                                                                                                   KC_BACKSPACE,   KC_ENTER,
-                        KC_T,                       KC_LEFT_SHIFT,                                                                                                                              KC_T,           KC_T,
-                        MT(MOD_LCTL, KC_TAB),       KC_DELETE,                                                                                                                                  KC_T,           KC_CAPS_LOCK
-    ),
+                            MT(MOD_LGUI, KC_ESCAPE),    KC_SPACE,                                                                                                                                       KC_BACKSPACE,   KC_ENTER,
+                            KC_T,                       KC_LEFT_SHIFT,                                                                                                                                  KC_T,           KC_T,
+                            MT(MOD_LCTL, KC_TAB),       KC_DELETE,                                                                                                                                      KC_T,           KC_CAPS_LOCK
+    )
 
     /* [0] = LAYOUT( */
     /*     KC_T,          KC_1,           KC_2,           KC_3,       KC_4,    KC_5,      KC_PRINT_SCREEN,                     KC_T,          KC_6,            KC_7,           KC_8,       KC_9,    KC_0,      KC_T, */
@@ -104,7 +104,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                             KC_TRANSPARENT,     KC_TRANSPARENT,
                             KC_TRANSPARENT,     KC_TRANSPARENT,
                             KC_TRANSPARENT,     KC_TRANSPARENT
-    ) */,
+    ), */
 
     /*
      * League of Legends gaming layer
@@ -119,7 +119,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                             KC_TRANSPARENT,     LT(3, KC_SPACE),
                             KC_TRANSPARENT,     KC_TRANSPARENT,
                             KC_TRANSPARENT,     KC_TRANSPARENT
-    ) */,
+    ), */
 
     /*
      *
@@ -136,5 +136,5 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                         KC_TRANSPARENT,     KC_TRANSPARENT,
                                         KC_TRANSPARENT,     KC_TRANSPARENT,
                                         KC_TRANSPARENT,     KC_TRANSPARENT
-    ) */,
+    ) */
 };
