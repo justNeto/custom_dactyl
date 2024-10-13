@@ -39,12 +39,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             KC_CAPS_LOCK,   KC_1,               KC_2,           KC_3,       KC_4,       KC_5,       KC_PRINT_SCREEN,                        KC_NO,              KC_6,           KC_7,           KC_8,           KC_9,           KC_0,       KC_NO,
             KC_TILDE,       KC_SCLN,            KC_COMMA,       KC_DOT,     KC_P,       KC_Y,       KC_AUDIO_VOL_UP,                        TO(2),              KC_F,           KC_G,           KC_C,           KC_R,           KC_L,       KC_NO,
             TG(5),          KC_A,               KC_O,           KC_E,       KC_U,       KC_I,       KC_AUDIO_VOL_DOWN,                      TO(3),              KC_D,           KC_H,           KC_T,           KC_N,           KC_S,       KC_NO,
-            KC_LEFT_SHIFT,  KC_QUOTE,           KC_Q,           KC_J,       KC_K,       KC_X,       KC_AUDIO_MUTE,                          KC_QUESTION,        KC_B,           KC_M,           KC_W,           KC_V,           KC_Z,       KC_NO,
+            KC_LEFT_SHIFT,  KC_QUOTE,           KC_Q,           KC_J,       KC_K,       KC_X,       KC_AUDIO_MUTE,                          KC_QUESTION,        KC_B,           KC_M,           KC_W,           KC_V,           KC_Z,       KC_RIGHT_SHIFT,
                                                 KC_NO,          KC_QUESTION,                                                                                                                    KC_EXCLAIM,     KC_NO,
 
                                                 MT(MOD_LGUI, KC_ESCAPE),    LT(4, KC_SPACE),                                                                                                    KC_BACKSPACE,   KC_ENTER,
-                                                OSL(4),                     KC_LEFT_ALT,                                                                                                        KC_CAPS,        KC_DELETE,
-                                                MT(MOD_LCTL, KC_TAB),       KC_LEFT_SHIFT,                                                                                                      KC_NO,          TMUX_MACRO
+                                                OSL(4),                     KC_LEFT_ALT,                                                                                                        KC_CAPS_LOCK,   KC_LEFT_SHIFT,
+                                                MT(MOD_LCTL, KC_TAB),       KC_DELETE,                                                                                                          KC_NO,          TMUX_MACRO
     ),
 
     /*
@@ -127,7 +127,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [5] = LAYOUT(
             KC_NO,              KC_NO,          KC_NO,              KC_NO,      KC_NO,      KC_NO,      KC_NO,                          KC_NO,              KC_NO,          KC_NO,          KC_NO,              KC_NO,      KC_NO,      KC_NO,
             KC_NO,              KC_F1,          KC_F2,              KC_F3,      KC_F4,      KC_F5,      KC_NO,                          KC_NO,              KC_F6,          KC_F7,          KC_F8,              KC_F9,      KC_F10,     KC_NO,
-            KC_NO,              KC_F11,         KC_NO,              KC_LEFT,    KC_DOWN,    KC_DOT,     KC_NO,                          KC_NO,              KC_COMMA,       KC_UP,          KC_RIGHT,           KC_F12,     KC_NO,      KC_NO,
+            KC_TRANSPARENT,     KC_F11,         KC_NO,              KC_LEFT,    KC_DOWN,    KC_DOT,     KC_NO,                          KC_NO,              KC_COMMA,       KC_UP,          KC_RIGHT,           KC_F12,     KC_NO,      KC_NO,
             KC_NO,              KC_NO,          KC_NO,              KC_NO,      KC_NO,      KC_NO,      KC_NO,                          KC_NO,              KC_NO,          KC_NO,          KC_NO,              KC_NO,      KC_NO,      KC_NO,
                                                 KC_NO,              KC_NO,                                                                                                                  KC_NO,              KC_NO,
 
