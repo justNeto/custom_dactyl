@@ -1,6 +1,6 @@
 {
     "manufacturer": "justNeto",
-    "keyboard_name": "custom_dactyl",
+    "keyboard_name": "dactyl_neto",
     "maintainer": "justNeto",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
