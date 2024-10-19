@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                                                 LGUI_T(KC_ESCAPE),  LT(4, KC_SPACE),                                                                                                                KC_BACKSPACE,   KC_ENTER,
                                                 KC_LEFT_SHIFT,      TMUX_MACRO,                                                                                                                     KC_LEFT_ALT,    KC_LEFT_SHIFT,
-                                                LCTL_T(KC_TAB),     KC_DELETE,                                                                                                                      KC_CAPS_LOCK,   KC_DELETE
+                                                LCTL_T(KC_TAB),     KC_DELETE,                                                                                                                      KC_CAPS_LOCK,   KC_LEFT_CTRL
     ),
 
     /*
